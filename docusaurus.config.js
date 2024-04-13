@@ -104,7 +104,19 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      colorMode: {
+        defaultMode: 'dark',
+      },
     }),
+
+  plugins: [
+    [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        language: ['en', 'ru'],
+      }
+    ]
+  ],
 };
 
 export default config;
