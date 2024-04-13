@@ -1,5 +1,9 @@
 ---
 sidebar_position: 1
+tags:
+    - gradle
+    - build tool
+    - basics
 ---
 
 # Gradle Basics
