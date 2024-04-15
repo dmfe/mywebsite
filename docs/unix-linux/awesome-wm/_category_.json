@@ -1,0 +1,8 @@
+{
+  "label": "Awesome WM",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "awesomewm is a highly configurable, next generation framework window manager for X."
+  }
+}
