@@ -25,7 +25,7 @@ The _Groovy DSL_ and _Kotlin DSL_ are the only accepted languages for Gradle scr
 The settings file is typically found in the root directory of the project:
 <Tabs>
   <TabItem value="kotlin" label="Kotlin" default>
-        ```kotlin title="󱈙 settings.gradle.kts"
+        ```kotlin title="settings.gradle.kts"
         rootProject.name = "root-project"   (1)
 
         include("sub-project-a")            (2) 
@@ -34,7 +34,7 @@ The settings file is typically found in the root directory of the project:
         ```
   </TabItem>
   <TabItem value="groovy" label="Groovy">
-        ```groovy title=" settings.gradle"
+        ```groovy title="settings.gradle"
         rootProject.name = 'root-project'   (1)
 
         include('sub-project-a')            (2)

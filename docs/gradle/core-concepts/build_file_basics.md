@@ -24,7 +24,7 @@ The build script is either a `build.gradle` file written in Groovy or a
 Example of the build script:
 <Tabs>
   <TabItem value="kotlin" label="Kotlin" default>
-        ```kotlin title="󱈙 settings.gradle.kts"
+        ```kotlin title="settings.gradle.kts"
         plugins {
             id("application")               (1)
         }
@@ -35,7 +35,7 @@ Example of the build script:
         ```
   </TabItem>
   <TabItem value="groovy" label="Groovy">
-        ```groovy title=" settings.gradle"
+        ```groovy title="settings.gradle"
         plugins {
             id 'application'                (1)
         }
