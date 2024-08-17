@@ -1,6 +1,5 @@
 {
   "label": "Gradle",
-  "position": 2,
   "link": {
     "type": "generated-index",
     "description": "Gradle is an open-source build automation tool with declarative build language."
